@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Súper Taxi</title>    
+</head>
+
+<body> 
+    <header>
+        <nav></nav>        
+    </header>
+    <main>
+        <section id="booking_section">
+            <div id="form_container">
+                <form action="#" method="post">
+                    <label for="nombre">Nombre y apellido:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="telefono">Teléfono con código de área:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="origen">Dirección de origen:</label>
+                    <input type="text" id="origen" name="origen" required>
+                    
+                    <label for="destino">Dirección de destino:</label>
+                    <input type="text" id="destino" name="destino" required>
+                    
+                    <label for="vuelo">Nro de vuelo:</label>
+                    <input type="text" id="vuelo" name="vuelo">
+                    
+                    <label for="arribo_fecha">Fecha de arribo:</label>
+                    <input type="date" id="arribo_fecha" name="arribo_fecha" required>
+                    
+                    <label for="arribo_hora">Hora de arribo:</label>
+                    <input type="time" id="arribo_hora" name="arribo_hora" required>
+                    
+                    <label for="maletas">Nro de maletas (valijas):</label>
+                    <input type="number" id="maletas" name="maletas" required>
+                    
+                    <label for="pasajeros">Cantidad de pasajeros:</label>
+                    <input type="number" id="pasajeros" name="pasajeros" required>
+                    
+                    <label for="nota">Nota para el conductor:</label>
+                    <textarea id="nota" name="nota"></textarea>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <div id="info_container">
+                <p>
+                    En Taxi Seguro, nuestra misión es ofrecerle un servicio de transporte confiable y placentero. Permítanos satisfacer sus necesidades de viaje en Buenos Aires con excelencia.
+                </p>
+            </div>
+        </section>        
+    </main>    
+    <footer>un footer</footer>
