@@ -1,1 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#booking_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+#form_container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 10%;
+}
+
+#form_container form input,
+#form_container form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#form_container form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+#form_container form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#info_container {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+#info_container p {
+    color: #333;
+}
+
 
