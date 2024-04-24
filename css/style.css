@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color:white;
+    background-color: #071216;
 }
 
 #booking_section {
@@ -46,7 +48,7 @@ body {
 }
 
 #info_container p {
-    color: #333;
+    color:white;
 }
 
 
